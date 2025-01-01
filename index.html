@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain Shahid - Senior Software Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: normal;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2.section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #2563eb;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Profile Section */
+        .profile-content {
+            background-color: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Experience Section */
+        .experience-item {
+            margin-bottom: 2rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .experience-item h3 {
+            color: #2563eb;
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-item .company {
+            font-weight: bold;
+            color: #4b5563;
+        }
+
+        .experience-item .date {
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill-tag {
+            background-color: #e0e7ff;
+            color: #3730a3;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .project-card h3 {
+            color: #2563eb;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card .tech-stack {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-card a {
+            color: #2563eb;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Education Section */
+        .education-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .education-item h3 {
+            color: #2563eb;
+            margin-bottom: 0.25rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>ZAIN SHAHID</h1>
+            <h2>Senior Software Engineer</h2>
+            <div class="contact-info">
+                <a href="tel:+923233779939">
+                    <i class="fas fa-phone"></i>
+                    +92-323-3779-939
+                </a>
+                <a href="mailto:zainshahid630@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    zainshahid630@gmail.com
+                </a>
+                <a href="#">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Komal Rah, Gulfam Street, Harbanspura Lahore
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2 class="section-title">Profile</h2>
+            <div class="profile-content">
+                <p>Full Stack Developer with 3+ years of experience in the MERN stack and Angular, skilled in database management, optimization, and seamless integration. A proactive learner focused on emerging tech and dedicated to high-quality solutions. Expert in problem-solving and adaptable to any language, prioritizing logic over syntax in the GPT era.</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-item">
+                <h3>Full Stack Developer</h3>
+                <div class="company">Ammag Technologies</div>
+                <div class="date">Dec 2021 – Ongoing</div>
+                <ul>
+                    <li>Developed decentralized applications (DApps) and blockchain-based solutions</li>
+                    <li>Delivered full-stack development across React.js, Node.js, TypeScript</li>
+                    <li>Developed secure, user-centric applications using React Native</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Lead and Project Manager (Remote)</h3>
+                <div class="company">EquinoxDevs</div>
+                <div class="date">Jan 2022 – Oct 2024</div>
+                <ul>
+                    <li>Led and managed projects from inception to completion</li>
+                    <li>Oversaw development of PHP-based POS cash management system</li>
+                    <li>Collaborated with remote teams to streamline project workflows</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag">ReactJs</span>
+                <span class="skill-tag">NodeJs</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Web3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">MySQL</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Fine Original MarketPlace</h3>
+                    <p class="tech-stack">React JS, Redux, MSSQL, NET CORE, Azure, CICD, Solidity</p>
+                    <a href="https://fineoriginal.ammag.tech/" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Project
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>1CM Loyalty</h3>
+                    <p class="tech-stack">React, React Native, Node.js, PostgreSQL, Java, Redux</p>
+                    <a href="https://1cminc.com" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Official Website
+                    </a>
+                    <a href="https://onecm-web.onecannabismarketinc.com" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Admin Portal
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Algo tech</h3>
+                    <p class="tech-stack">React, Node.js, PostgreSQL, Web3, Context Api</p>
+                    <a href="https://algotechtrade.io" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Main Website
+                    </a>
+                    <a href="https://admin.algotechtrade.io" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Admin Portal
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3>University of Central Punjab</h3>
+                <p>BSCS (2017-2021)</p>
+            </div>
+            <div class="education-item">
+                <h3>Punjab College</h3>
+                <p>FSC. (2015-2017)</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Zain Shahid. All rights reserved.</p>
+    </footer>
+</body>
+</html>
