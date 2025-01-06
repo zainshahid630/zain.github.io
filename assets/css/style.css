@@ -1145,3 +1145,16 @@ p {
           font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
+.project_title {
+  text-transform: uppercase;
+}
+.project_image_div
+{
+  
+  height: 200px;
+}
+.project_image
+{
+  
+  height: 250px;
+}
